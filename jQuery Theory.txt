@@ -4,7 +4,7 @@ jQuery :-
 -> It is cross platform technology which write less & do more.
 -> It also helps in executing & process Ajax call.
 -> jQuery is mainly used to perform animation.
--> (DOM) Document Object Model.
+-> 'DOM' Document Object Model.
 
 
 * What is jQuery?
