@@ -1,0 +1,67 @@
+jQuery :-
+
+-> jQuery is small & light weight javaScript library.
+-> It is cross platform technology which write less & do more.
+-> It also helps in executing & process Ajax call.
+-> jQuery is mainly used to perform animation.
+-> (DOM) Document Object Model.
+
+
+* What is jQuery?
+-> jQuery is an excellent javaScript framework.
+-> jQuery is another excellent javaScript framework after Prototype.
+-> Its purpose is- WRITE LESS, DO MORE. Write less code & do more things.
+-> It is a lightweight js library, which is unmatched by other js libraries.
+-> It is compatible with CSS3 & also compatible with various common browsers.
+-> jQuery is a fast & concise javaScript library that enables users to more easily process  
+    HTML Documents, events, realize animation effects, & easily provides AJAX interaction for websites.
+
+
+* Advantages of jQuery?
+-> 1) Browser Compatibility :- No more textcontent or innertext (& related) issues, because the quirks have all been abstracted away by jQuery.
+                            :- Cross-browser support brings Compatibility issues to a minimum.
+
+-> 2) Easy to learn, easy to use :- While the library is large, the APIs themselves are easy & intuitive.
+                                 :- This makes them easier to learn.
+                                 :- Everything you could need for manipulating DOM, creating CSS effects, & executing Ajax is right there, & instead of intimidating a beginner, it is fun.
+
+-> 3) Community :- Popularity practically equates to scores of developers actively coding, experimenting and improving upon the base.
+                :- A lot of them are pretty damn creative, & you can use their interesting snippets, & get support if you ask nicely.
+
+-> 4) Extendibility :- You start out with a core library and extend its functionality per your needs with plugins.
+                    :- The repository is huge & consistently growing, thanks to a great community.
+
+
+* Disadvantages of jQuery?
+-> 1) No out-of-the-box features to support development :-
+      :- For larger and more complicated applications you will need to extend way beyond core with additional libraries & plugins.
+      :- With several large libraries, you add size & dependencies, which will slow down your application & create future difficulties in debugging.
+
+-> 2) Not built for larger apps :- At its core, jQuery is a DOM manipulation library.
+                                :- While a lot of other platforms include it, you'll need more than just jQuery to develop a complex apps.
+
+
+Ajax :-
+
+-> Ajax stands for "Asynchronous javaScript and XML".
+-> It is a new technic for creating better, faster & more interactive web application with the help of XML, HTML, CSS & javaScript.
+-> It allows you to send only important information to the server & not entire page.
+-> So, only valuable data from the client is routed to the server side.
+-> It makes sure application interactive & faster.
+-> It is the most valuable RIA (Rich Internet Application) technology.
+
+
+* Advantages :-
+
+-> It reduce the server traffic & increase the speed.
+-> Ajax is responsible & time taken is also less.
+-> It can validate the form data.
+-> Bandwidth usage can be reduced.
+-> Asynchronous call can be made which reduces the time for data arrival.
+
+
+* Disadvantages :-
+
+-> It is open-source.
+-> It's request can be created only in newly created web browser.
+-> It can access information from only one server.
