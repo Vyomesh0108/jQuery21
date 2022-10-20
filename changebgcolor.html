@@ -1,0 +1,100 @@
+<!-- Write a jQuery program to create 7 button & with the label red, orange, yellow, green, blue
+     indigo & violet, when mouse enter in any button change the background color of document as per
+     button label, when mouse move out change background color to white ? -->
+
+<html>
+    <head>
+
+        <!-- This ↓ line is most important for doing jQuery Programs -->
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        
+        <script>
+
+            $(document).ready(function()
+            {
+                $("#b1").mouseover(function()
+                {
+                    $("body").css("background-color","red");
+                });
+                
+                $("#b1").mouseout(function()
+                {
+                    $("body").css("background-color","white");
+                });
+
+                $("#b2").mouseover(function()
+                {
+                    $("body").css("background-color","orange");
+                });
+                
+                $("#b2").mouseout(function()
+                {
+                    $("body").css("background-color","white");
+                });
+
+                $("#b3").mouseover(function()
+                {
+                    $("body").css("background-color","yellow");
+                });
+                
+                $("#b3").mouseout(function()
+                {
+                    $("body").css("background-color","white");
+                });
+
+                $("#b4").mouseover(function()
+                {
+                    $("body").css("background-color","green");
+                });
+                
+                $("#b4").mouseout(function()
+                {
+                    $("body").css("background-color","white");
+                });
+
+                $("#b5").mouseover(function()
+                {
+                    $("body").css("background-color","blue");
+                });
+                
+                $("#b5").mouseout(function()
+                {
+                    $("body").css("background-color","white");
+                });
+
+                $("#b6").mouseover(function()
+                {
+                    $("body").css("background-color","indigo");
+                });
+                
+                $("#b6").mouseout(function()
+                {
+                    $("body").css("background-color","white");
+                });
+
+                $("#b7").mouseover(function()
+                {
+                    $("body").css("background-color","violet");
+                });
+                
+                $("#b7").mouseout(function()
+                {
+                    $("body").css("background-color","white");
+                });
+            });
+
+        </script>
+
+    </head>
+    <body>
+        
+        <input type="button" name="b1" id="b1" value="Red"> &nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="button" name="b2" id="b2" value="Orange"> &nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="button" name="b3" id="b3" value="Yellow"> &nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="button" name="b4" id="b4" value="Green"> &nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="button" name="b5" id="b5" value="Blue"> &nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="button" name="b6" id="b6" value="Indigo"> &nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="button" name="b7" id="b7" value="Violet"> &nbsp;&nbsp;&nbsp;&nbsp;
+
+    </body>
+</html>     

@@ -1,0 +1,46 @@
+<html>
+    <head>
+
+        <!-- This ↓ line is most important for doing jQuery Programs -->
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+        <script>
+
+            $(document).ready(function()
+            {
+                $("#b1").click(function()
+                {
+                    $("#abc").animate({left: '1000pt', opacity: '.1'}, 2000);
+                });
+
+                $("#b2").click(function()
+                {
+                    $("#abc").animate({top: '100pt'});
+                    $("#abc").animate({top: '400pt'});
+                    $("#abc").animate({top: '200pt'});
+                });
+
+                $("#b3").click(function()
+                {
+                    $("#abc").animate({width: '700pt'}, 2000);
+                    $("#abc").animate({height: '200pt'}, 2000);
+                    $("#abc").animate({width: '100pt'}, 2000);
+                    $("#abc").animate({height: '100pt'}, 2000);
+                });
+            });
+
+        </script>
+
+    </head>
+    <body>
+
+        <input type="button" name="b1" id="b1" value="Move"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="button" name="b2" id="b2" value="Jump"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="button" name="b3" id="b3" value="Animate">
+
+        <br><br>
+
+        <div id="abc" style="position: absolute; top: 300px; left: 100px; width: 100px; height: 100px; background-color: red; border-radius: 120pt;"></div>
+
+    </body>
+</html>

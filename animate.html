@@ -1,0 +1,30 @@
+<html>
+    <head>
+
+        <!-- This ↓ line is most important for doing jQuery Programs -->
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+        <script>
+
+            $(document).ready(function()
+            {
+                $("#abc").mouseover(function()
+                {
+                    $("#abc").animate({fontSize: '30pt', opacity: '.2'});
+                });
+
+                $("#abc").mouseout(function()
+                {
+                    $("#abc").animate({fontSize: '15pt', opacity: '.8'});
+                });
+            });
+
+        </script>
+
+    </head>
+    <body>
+
+        <h1 id="abc"> Vyomesh Mistry </h1>
+
+    </body>
+</html>

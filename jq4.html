@@ -1,0 +1,40 @@
+<html>
+    <head>
+
+        <!-- This ↓ line is most important for doing jQuery Programs -->
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+        <script>
+
+            $(document).ready(function()
+            {
+                $("#b1").mouseover(function()
+                {
+                    $("div").fadeOut(3000);
+                });
+                
+                $("#b2").mouseover(function()
+                {
+                    $("div").fadeIn(3000);
+                });
+            });
+
+        </script>
+
+    </head>
+    <body>
+
+        <input type="button" name="b1" id="b1" value="Fade Out"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="button" name="b2" id="b2" value="Fade In"> <br><br><br>
+
+        <div>
+
+            <div id="abc" style="position: absolute; top: 200px; left: 100px; width: 300px; height: 300px; background-color: red; border-radius: 120pt;"></div>
+        
+            <h1> Hello Sir How Are You ??? </h1>
+            <h1> Vyomesh Mistry </h1>
+
+        </div>
+
+    </body>
+</html>

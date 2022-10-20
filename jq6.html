@@ -1,0 +1,52 @@
+<html>
+    <head>
+
+        <!-- This ↓ line is most important for doing jQuery Programs -->
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+        <script>
+
+            $(document).ready(function()
+            {
+                $("#abc").hide();
+                $("#xyz").hide();
+
+                $("#b1").mouseover(function()
+                {
+                    $("#abc").show();
+                });
+                
+                $("#b1").mouseout(function()
+                {
+                    $("#abc").hide();
+                });
+                
+                $("#b2").mouseover(function()
+                {
+                    $("#xyz").show();
+                });
+
+                $("#b2").mouseout(function()
+                {
+                    $("#xyz").hide();
+                });
+            });
+
+        </script>
+
+    </head>
+    <body>
+
+        <input type="button" name="b1" id="b1" value="Deer"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="button" name="b2" id="b2" value="Dog"> <br><br><br><br><br>
+
+        <div id="abc">
+            <img src="Deer.png" alt="Deer" width="200" height="210">
+        </div> 
+        
+        <div id="xyz">
+            <img src="Dog.jpg" alt="Dog" width="200" height="210">
+        </div> 
+
+    </body>
+</html>
