@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Pie Chart </title>
+
+        <!-- This ↓ 2 lines are most important for doing different charts (line, bar, pie) using jQuery -->
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+
+        <script>
+
+            window.onload = function()
+            {
+                var option = {
+                    animationEnabled : true,
+                    title : {
+                        text : "IPL WHEEL",
+                        fontSize : 25
+                    },
+                    axisY : {
+                        title : "Teams"
+                    },
+                    legend : {
+                        verticalAlign : "center",
+                        horizontalAlign : "right"
+                    },
+                    data : [{
+                        type : "pie",
+                        showInLegend : true,
+                        toolTipContent : "{legend} <br/> {y} %",
+                        indexLabel : "{y} %",
+                        dataPoints : [{
+                            label : "RCB",
+                            y : 20,
+                            legendText : "RCB"
+                        },
+                        {
+                            label : "DC",
+                            y : 30,
+                            legendText : "DC"   
+                        },
+                        {
+                            label : "KKR",
+                            y : 05,
+                            legendText : "KKR"
+                        },
+                        {
+                            label : "SRH",
+                            y : 10,
+                            legendText : "SRH"
+                        },
+                        {
+                            label : "MI",
+                            y : 35,
+                            legendText : "MI"
+                        },
+                        {
+                            label : "CSK",
+                            y : 40,
+                            legendText : "CSK"
+                        },
+                        {
+                            label : "RR",
+                            y : 25,
+                            legendText : "RR"
+                        }]
+                    }]
+                }
+                $("#pie").CanvasJSChart(option);
+            };
+
+        </script>
+
+    </head>
+    <body>
+
+        <div id="pie" style="width: 100%; height: 100%;"></div>
+
+    </body>
+</html>

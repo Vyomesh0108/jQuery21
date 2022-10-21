@@ -1,0 +1,71 @@
+<html>
+    <head>
+
+        <!-- This ↓ 2 lines are most important for doing different charts (line, bar, pie) using jQuery -->
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+
+        <script>
+
+            window.onload = function()
+            {
+                var options = {
+                    animationEnabled : true,
+                    title : {
+                        text : "IPL-Match-25"
+                    },
+                    axisX : {
+                        title : "Overs"
+                    },
+                    axisY : {
+                        title : "Runs"
+                    },
+                    data : [{
+                        type : "column",
+                        name : "Punjab",
+                        color : "yellow",
+                        showInLegend : true,
+                        dataPoints : [
+                        {x : 2, y : 12},
+                        {x : 4, y : 18},
+                        {x : 6, y : 20},
+                        {x : 8, y : 10},
+                        {x : 10, y : 8},
+                        {x : 12, y : 15},
+                        {x : 14, y : 17},
+                        {x : 16, y : 20},
+                        {x : 18, y : 22},
+                        {x : 20, y : 25}
+                        ]
+                    },
+                    {
+                        type : "column",
+                        name : "RCB",
+                        color : "red",
+                        showInLegend : true,
+                        dataPoints : [
+                        {x : 2, y : 20},
+                        {x : 4, y : 22},
+                        {x : 6, y : 18},
+                        {x : 8, y : 15},
+                        {x : 10, y : 12},
+                        {x : 12, y : 10},
+                        {x : 14, y : 8},
+                        {x : 16, y : 10},
+                        {x : 18, y : 12},
+                        {x : 20, y : 9}
+                        ]
+                    }]
+                }
+                $("#barchart").CanvasJSChart(options);
+            };
+
+        </script>
+
+    </head>
+    <body>
+
+        <div id="barchart" style="width: 100%; height: 100%;"></div>
+
+    </body>
+</html>
